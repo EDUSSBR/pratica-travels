@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:5000
+
+GET {{baseUrl}}/passengers/travels HTTP/1.1
+
+
+###
+GET {{baseUrl}}/passengers/travels?page=2 HTTP/1.1
+
+
+###
+GET {{baseUrl}}/passengers/travels?name=WARREN HTTP/1.1
